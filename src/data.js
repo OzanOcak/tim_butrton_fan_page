@@ -27,7 +27,7 @@ export const products = [
     id: 5,
     name: "mars attacks",
     img: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hll4O5vSAfnZDb6JbnP06GPtz7b.jpg",
-    link: "http://lama.devhttps://www.themoviedb.org/movie/75-mars-attacks",
+    link: "https://www.themoviedb.org/movie/75-mars-attacks",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const products = [
     id: 8,
     name: "corpse bride",
     img: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/isb2Qow76GpqYmsSyfdMfsYAjts.jpg",
-    link: "https://www.themoviedb.org/movie/3933-corpse-bridehttps://www.themoviedb.org/movie/3933-corpse-bride",
+    link: "https://www.themoviedb.org/movie/3933-corpse-bride",
   },
   {
     id: 9,
