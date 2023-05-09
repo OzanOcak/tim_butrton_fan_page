@@ -1,10 +1,13 @@
 .p {
+    position: relative;
     width: 30%;
     height: 40vh;
-    margin: 20px 10px;
+    margin: 10px 5px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    min-width: 24rem;
+
   }
   
   .p-browser {
@@ -36,10 +39,24 @@
   .p:hover .p-img {
     transform: translateY(-50%);
   }
+
+  a{
+    color:white;
+    position: absolute;
+    font-size: 2rem;
+    padding: 0.2rem 0.5rem;
+    z-index: 3;
+    bottom:0.5rem;
+    right:0.2rem;
+    background-color: rgba(155,155,155,.5);
+    border-radius:1rem
+
+  }
+
   
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 1000px) {
     .p {
-      width: 40%;
-      height: 20vh;
+      width: 16%;
+      height: 28vh;
     }
   }

@@ -94,5 +94,14 @@
     .info-desc{
       display: none;
     }
+    .info-bg{
+      height: 100%;
+    }
     
+  }
+
+  @media screen and (max-width: 1000px) {
+    .info-bg{
+      height: 80%;
+    }
   }

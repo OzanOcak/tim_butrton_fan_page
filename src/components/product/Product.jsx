@@ -1,6 +1,6 @@
 import "./product.css";
 
-const Product = ({ img, link }) => {
+const Product = ({ img, link, name }) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -8,6 +8,7 @@ const Product = ({ img, link }) => {
         <div className="p-circle yellow"></div>
         <div className="p-circle green"></div>
       </div>
+      <a href={link}>{name}</a>
       <img src={img} alt="" className="p-img" />
     </div>
   );
