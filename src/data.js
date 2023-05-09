@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "./src/img/peeweebigadventure.jpeg",
+    img: "./img/peeweebigadventure.jpeg",
     link: "http://lama.dev",
   },
   {
