@@ -1,25 +1,19 @@
-import { useContext } from "react";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
-import Toggle from "./components/toggle/Toggle";
-import { ThemeContext } from "./context";
+import About from "./components/about/About"; //import About Component
+import Contact from "./components/contact/Contact"; //import Contact Component
+import Intro from "./components/intro/Intro"; //import Intro Component
+import MovieList from "./components/productList/ProductList"; //import MovieList Component
 
 function App() {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
+        backgroundColor: "white",
+        color: "black",
       }}
     >
-      <Toggle />
       <Intro />
       <About />
-      <ProductList />
+      <MovieList />
       <Contact />
     </div>
   );
